@@ -1,0 +1,15 @@
+{
+  "name": "itis6177w01",
+  "version": "1.0.0",
+  "description": "ITIS 6177 - Week 01 - Demo code",
+  "author": "Fabio Nolasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
