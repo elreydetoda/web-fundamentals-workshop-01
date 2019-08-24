@@ -1,16 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Helvetica, Arial;}
+    margin: 110px 0 0 0;
+    font-family: Helvetica, Arial;
+}
 
 h1 {
     width: 100%;
     padding: 30px;
     margin: 0;
-    background-color: silver;
+    background-color: #FFE81F;
+    color: #000;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 button {
-    background-color: gold;
+    background-color: #00AFF2;
+    color: #fff;
     padding: 10px 30px;
     font-size: 14px;
 }
@@ -20,6 +33,7 @@ button, ul { margin: 10px 40px; }
 ul, ul li {
     list-style: none;
     padding: 0;
+    margin-bottom: 10px;
 }
 
 ul li a {
@@ -29,6 +43,23 @@ ul li a {
     background-color: #ddd;
     padding: 10px 30px;
     margin-bottom: 2px;
+    cursor: pointer;
 }
 
-ul li a:hover { background-color: gold; }
+ul li a:hover { background-color: #00AFF2; }
+
+section h1 {
+    font-size:14px;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+}
+
+section {
+    background-color: #eee;
+    padding: 10px;
+}
+
+section p {
+    font-size: 12px;
+}
